@@ -10,7 +10,7 @@ OpenMCCellTransformSearch::validParams()
   auto params = CriticalitySearchBase::validParams();
   params.addRequiredParam<std::vector<int32_t>>("cell_ids", "Cell IDs to modify");
   params.addClassDescription(
-      "Base class for criticality searches using the position of one or more cells");
+      "Base class for criticality searches using the location of one or more cells");
   return params;
 }
 

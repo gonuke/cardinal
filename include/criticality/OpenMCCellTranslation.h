@@ -26,4 +26,6 @@ protected:
   }
 
   virtual std::string units() const override { return "[m]"; }
+
+  std::vector<double> _dir[3];
 };
